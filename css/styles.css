@@ -1,1 +1,57 @@
+body {
+  background-color: #900C3F;
+}
+.header h1 {
+  text-align:center;
+  font-family:arial;
+  letter-spacing: 2px;
+  margin-top:0;
+  padding-top:0;
+}
+.header {
+  z-index: 0;
+  background-color: #F8F7E6;
+  padding:0;
+  margin:0;
+}
+.header img {
+  display: block;
+  height:300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.jumbotron h3 {
+  font-weight: lighter;
+  text-align: center;
+  color:#575D58;
+  letter-spacing: 1px;
+}
 
+.projects h2{
+  color:#900C3F;
+  text-align: center;
+  border:2px solid brown;
+  background-color:#F8F7E6;
+}
+
+.projects {
+  width:100%;
+  padding-bottom:0;
+  margin-bottom:0;
+
+}
+
+.projects p{
+  text-align: center;
+  color:white;
+  border: 2px solid brown;
+}
+.panel-body ul li{
+  list-style: none;
+  text-align: center;
+}
+.panel-body ol li{
+  list-style: lower-alpha;
+  text-align: center;
+  list-style-position: inside;
+}
